@@ -1,0 +1,15 @@
+list of census questions
+Question 1 Are you male or female?
+Question 2 What is your date of birth?
+Question 3 – What is your current marital status?
+Question 4 – What is your place of birth?
+Question 5 – Where do you usually live?
+Question 6 – Where did you usually live one year ago?
+Question 7 – Have you lived outside Australia for a continuous period of one year or more?
+Question 8 – What is your Nationality?
+Question 9 – What is your ethnic or cultural background?
+Question 10 – What is your religion?
+Question 12 – How many children have you given birth to?
+Question 13 – Can you speak English?
+Question 14 – Do you speak a language other than English at home?
+Question 15 - How old are you?

@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<head>
+  <title> Census </title>
+</head>
+<body>
+  <h1>Census Household Form</h1>
+  <h3>Please answer each question. You may only submit once.</h3>
+  <form action="/censusquestions" method="post">
+    <fieldset>
+  <p>Question 1: Are you male or female?</p>
+    <p>
+        <input type="radio" name="answerOne" value="male" checked> Male<br>
+        <input type="radio" name="answerOne" value="female"> Female<br>
+        <input type="radio" name="answerOne" value="other"> Other
+    </p>
+
+  <p>Question 2: What is your date of birth?</p>
+    <p>
+        <input type="date" name="answerTwo" required="true">
+    </p>
+
+  <p>Question 3: What is your current marital status?</p>
+  <p>
+  <textarea required="true" name = "answerThree"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+                </p>
+
+  <p>Question 4: What is your place of birth?</p>
+  <p>
+  <textarea required="true" name = "answerFour"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+                </p>
+
+  <p>Question 5: Where do you usually live?</p>
+  <p>
+  <textarea required="true" name = "answerFive"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+                </p>
+
+  <p>Question 6: Have you lived outside Australia for a continuous period of one year or more?</p>
+  <p>
+  <textarea required="true" name = "answerSix"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+                </p>
+
+  <p>Question 7: What is your ethnic or cultural background?</p>
+  <p>
+  <textarea required="true" name = "answerSeven"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+  </p>
+
+  <p>Question 8: What is your religion?</p>
+  <p>
+  <textarea required="true" name = "answerEight"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+  </p>
+
+  <p>Question 9: How many children have you given birth to?</p>
+    <p>
+      <input required="true" type="number" name="answerNine" min="0">
+    </p>
+
+  <p>Question 10: Can you speak English?</p>
+  <p>
+  <textarea required="true" name = "answerTen"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+  </p>
+
+  <p>Question 11: Do you speak a language other than English at home?</p>
+  <p>
+  <textarea required="true" name = "answerEleven"
+                  rows = "2"
+                  cols = "80">Your answer here</textarea>
+  </p>
+
+  <input type="submit" value="Submit">
+
+    </fieldset>
+</form>
+</body>
